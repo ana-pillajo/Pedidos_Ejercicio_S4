@@ -1,4 +1,4 @@
-public class Pedido {
+public class Pedidos {
 
     private int numero;
     private String cliente;
@@ -8,7 +8,7 @@ public class Pedido {
     private static int contadorPedidos = 0;
     private static double ventasTotales = 0;
 
-    public Pedido(String cliente, double total) {
+    public Pedidos(String cliente, double total) {
         contadorPedidos++;
         this.numero = contadorPedidos;
         this.cliente = cliente;
